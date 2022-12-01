@@ -28,7 +28,7 @@ The front-end for this application has been built for you and can be found [here
 - All items CRUD routes implemented (you don't need a detail route - only list)
 - All items CRUD routes are limited to the authenticated user (for example at `/api/v1/items/` you only see items with the same user_id as the authenticated user)
 - All existing tests are passing
-
+/linting
 ### Rubric
 
 | Task                                                                             | Points |
