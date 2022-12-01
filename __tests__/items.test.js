@@ -99,7 +99,7 @@ describe('items', () => {
     const resp = await agent
       .put(`/api/v1/items/${item.id}`)
       .send({ bought: true });
-    expect(resp.status).toBe(401);
+    expect(resp.status).toBe(403);
   });
 
   it('DELETE /api/v1/items/:id should delete items for valid user', async () => {
