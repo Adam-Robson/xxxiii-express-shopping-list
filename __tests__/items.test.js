@@ -120,7 +120,6 @@ describe('items', () => {
     });
     const resp = await agent.delete(`/api/v1/items/${item.id}`);
     expect(resp.status).toBe(200);
-
     const check = await Item.getById(item.id);
     expect(check).toBeNull();
   });
