@@ -11,7 +11,7 @@ CREATE TABLE users (
 
 CREATE TABLE items (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  user_id BIGINT ,
+  user_id BIGINT,
   description VARCHAR NOT NULL,
   bought BOOLEAN NOT NULL DEFAULT(false),
   qty INT,
